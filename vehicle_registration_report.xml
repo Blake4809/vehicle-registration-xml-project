@@ -1,0 +1,24 @@
+<VehicleRegistrationReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="vehicle_registration_schema.xsd">
+    <OfficeCode>MI-073</OfficeCode>
+    <SubmissionDate>2025-07-03</SubmissionDate>
+    
+    <Vehicle>
+        <VIN>1HGCM82633A123456</VIN>
+        <PlateNumber>ABC1234</PlateNumber>
+        <OwnerName>Emily Clark</OwnerName>
+        <VehicleType>Passenger</VehicleType>
+        <ModelYear>2022</ModelYear>
+        <Registered>true</Registered>
+    </Vehicle>
+    
+    <Vehicle>
+        <VIN>2FMDK3GC1BBB23456</VIN>
+        <PlateNumber>XYZ7890</PlateNumber>
+        <OwnerName>Michael Johnson</OwnerName>
+        <VehicleType>Truck</VehicleType>
+        <ModelYear>2020</ModelYear>
+        <Registered>false</Registered>
+    </Vehicle>
+    
+</VehicleRegistrationReport>

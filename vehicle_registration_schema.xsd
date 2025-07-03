@@ -1,0 +1,24 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="VehicleRegistrationReport">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="OfficeCode" type="xs:string"/>
+                <xs:element name="SubmissionDate" type="xs:date"/>
+                <xs:element name="Vehicle" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="VIN" type="xs:string"/>
+                            <xs:element name="PlateNumber" type="xs:string"/>
+                            <xs:element name="OwnerName" type="xs:string"/>
+                            <xs:element name="VehicleType" type="xs:string"/>
+                            <xs:element name="ModelYear" type="xs:positiveInteger"/>
+                            <xs:element name="Registered" type="xs:boolean"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
